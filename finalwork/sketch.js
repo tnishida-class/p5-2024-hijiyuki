@@ -64,7 +64,7 @@ function draw() {
   line(0, height - lineHeight, width, height - lineHeight); // 線を少し上に移動
   
   // 一定間隔でボールを生成する
-  if (frameCount %30 === 0) { // 10フレームごとに生成
+  if (frameCount %40 === 0) { // 40フレームごとに生成
     const randomSize = random(50, 100); // ランダムなサイズ
     const b = {
       x: random(width), // 横方向ランダム
